@@ -8,17 +8,23 @@
     font-family: "Roboto", sans-serif;
 }
 
+a {
+    color: #ffffff;
+}
+
 header {
     height: 70px;
     background-color: #ffffff;
+    font-size: smaller;
 }
 
 main {
     height: 100vh;
+    padding-top: 80px;
 }
 
 #side_menu {
-    width: 100px;
+    min-width: 70px;
     height: 100%;
     background-color: #051e34;
 }
@@ -40,6 +46,9 @@ header input {
 
 .fa-bell {
     color: #ff8f00;
-    font-size: 20px;
+}
+
+#side_menu .nav-link {
+    color: #ffffff;
 }
 
