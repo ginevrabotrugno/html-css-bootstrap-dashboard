@@ -9,14 +9,11 @@
 }
 
 header {
-    height: 60px;
-
-    /* debug */
-    background-color: violet;
+    height: 70px;
+    background-color: #ffffff;
 }
 
 main {
-    padding-top: 60px;
     height: 100vh;
 }
 
@@ -24,5 +21,25 @@ main {
     width: 100px;
     height: 100%;
     background-color: #051e34;
+}
+
+.box {
+    /* debug */
+    width: 100%;
+    background-color: violet;
+    height: 50px;
+}
+
+header input {
+    width: 100%;
+    border: 0;
+    background-color: #e5e5e5;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.fa-bell {
+    color: #ff8f00;
+    font-size: 20px;
 }
 
