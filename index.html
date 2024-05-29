@@ -41,9 +41,18 @@
                 </form>
 
                 <div class="navbar-toggler border-0">
-                    <a href="#">
-                        <i class="fa-solid fa-bell"></i>
-                    </a>
+                    
+                    <div class="dropdown btn-group dropstart">
+                        <button class="btn btn-outline-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-bell"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Profilo</a></li>
+                          <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                          <li><a class="dropdown-item" href="#">Logout</a></li>
+                        </ul>
+                      </div>
+
                 </div>
 
                 
@@ -66,9 +75,6 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <!-- <a class="nav-link" href="#">
-                                <i class="fa-solid fa-bell"></i>
-                            </a> -->
                             <div class="dropdown btn-group dropstart">
                                 <button class="btn btn-outline-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     <i class="fa-solid fa-bell"></i>
