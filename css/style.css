@@ -15,7 +15,6 @@ a {
 header {
     height: 70px;
     background-color: #ffffff;
-    font-size: smaller;
 }
 
 .wrapper {
@@ -24,7 +23,7 @@ header {
 }
 
 #side_menu {
-    width: 70px;
+    width: 80px;
     height: 100%;
     background-image: url(../img/sidebar-bg.png);
     background-color: #051e34;
@@ -55,8 +54,9 @@ header input {
     border: 0;
     background-color: #e5e5e5;
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: 5px 10px 5px 25px;
     margin-left: 10px;
+    font-size: smaller;
 }
 
 .fa-bell {
@@ -65,6 +65,14 @@ header input {
 
 #side_menu .nav-link {
     color: #ffffff;
+    font-size: smaller;
+
+}
+
+.fa-magnifying-glass {
+    position: absolute;
+    left: 15px;
+    top: 7px;
 }
 
 
