@@ -84,4 +84,8 @@ section {
     padding: 15px;
 }
 
+.breadcrumb-item + .breadcrumb-item::before {
+    color: #ffffff;
+}
+
 
