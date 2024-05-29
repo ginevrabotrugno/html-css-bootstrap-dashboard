@@ -88,3 +88,8 @@ section {
     padding: 10px 0;
 }
 
+.form-floating > .form-control {
+    height: 38px;
+    line-height: 100%;
+    vertical-align: middle;
+}
