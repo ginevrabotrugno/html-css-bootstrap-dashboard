@@ -27,8 +27,12 @@
 
             <div class="container-fluid">
 
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand navbar-toggler border-0" href="#">
                     <img src="img/mobile-logo.png" alt="logo" width="50">
+                </a>
+
+                <a class="navbar-collapse collapse navbar-expand-lg flex-grow-0" href="#">
+                    <img class="logo_big" src="img/logo.svg" alt="logo">
                 </a>
 
                 <form class="d-flex flex-grow-1">
@@ -77,57 +81,83 @@
     
     </header>
 
-    <main class="d-flex">
+    <main>
 
         
+        <div class="wrapper d-flex">
 
-        <div id="side_menu">
+            <div id="side_menu">
             
-           <div class="navbar navbar-expand-lg flex-column">
+                <div class="navbar navbar-expand-lg flex-column">
+     
+                 <div class="container">
+     
+                     <ul class="nav flex-column">
+     
+                         <li class="nav-item">
+                            <a class="nav-link d-lg-none" href="#">
+                                <i class="fa-solid fa-house"></i>
+                            </a>
+                            <a class="nav-link d-none d-lg-flex gap-2 align-items-center" href="#">
+                                <i class="fa-solid fa-house"></i>
+                                Home
+                            </a>
+                         </li>
 
-            <div class="container">
+                         
 
-                <ul class="nav flex-column">
+                             
+                         <li class="nav-item">
+                             <a class="nav-link d-lg-none" href="#">
+                                <i class="fa-solid fa-chart-simple"></i>
+                             </a>
+                             <a class="nav-link d-none d-lg-flex gap-2 align-items-center" href="#">
+                                <i class="fa-solid fa-chart-simple"></i>
+                                Stats
+                            </a>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <i class="fa-solid fa-house"></i>
-                        </a>
-                    </li>
+                         </li>
+     
+                         <li class="nav-item">
+                             <a class="nav-link d-lg-none" href="#">
+                                <i class="fa-solid fa-signal"></i>
+                             </a>
+                             <a class="nav-link d-none d-lg-flex gap-2 align-items-center" href="#">
+                                <i class="fa-solid fa-signal"></i>
+                                Signals
+                            </a>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <i class="fa-solid fa-chart-simple"></i>
-                        </a>
-                    </li>
+                         </li>
+                     </ul>
+         
+                     <ul class="nav flex-column position-fixed bottom-0">
+                         <li class="nav-item">
+                             <a class="nav-link d-lg-none" href="#">
+                                 <i class="fa-solid fa-gear"></i>
+                             </a>
+                             <a class="nav-link d-none d-lg-flex gap-2 align-items-center" href="#">
+                                <i class="fa-solid fa-gear"></i>
+                                Admin
+                            </a>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <i class="fa-solid fa-signal"></i>
-                        </a>
-                    </li>
-                </ul>
-    
-                <ul class="nav flex-column position-fixed bottom-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <i class="fa-solid fa-gear"></i>
-                        </a>
-                    </li>
-                </ul>
-    
-    
-            </div>
+                         </li>
+                     </ul>
+         
+         
+                 </div>
+     
+                 
+         
+     
+                </div> 
+     
+     
+             </div>
+     
+             <div class="container-fluid overflow-scroll">
+             </div>
+     
 
-            
-    
-
-           </div> 
-
-
-        </div>
-
-        <div class="container-fluid overflow-scroll">
         </div>
 
         
