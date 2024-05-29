@@ -75,5 +75,13 @@ header input {
     top: 7px;
 }
 
+#blue_bg {
+    background-color: #1b72e8;
+}
+
+
+section {
+    /* padding-top: 20px; */
+}
 
 
