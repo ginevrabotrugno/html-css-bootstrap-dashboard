@@ -8,10 +8,6 @@
     font-family: "Roboto", sans-serif;
 }
 
-a {
-    color: #ffffff;
-}
-
 header {
     height: 70px;
     background-color: #ffffff;
@@ -88,4 +84,7 @@ section {
     color: #ffffff;
 }
 
+#utenti .list-group-item {
+    padding: 10px 0;
+}
 
