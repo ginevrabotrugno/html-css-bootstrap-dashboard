@@ -18,28 +18,34 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Bootstrap Dashboard</title>
 </head>
+
 <body>
 
     <header class="fixed-top">
     
-
         <div class="navbar navbar-expand-lg">
 
             <div class="container-fluid">
 
+                <!-- logo small -->
                 <a class="navbar-brand d-lg-none" href="#">
                     <img src="img/mobile-logo.png" alt="logo" width="50">
                 </a>
 
+                <!-- logo big -->
                 <a class="navbar-collapse collapse navbar-expand-lg flex-grow-0" href="#">
                     <img class="logo_big" src="img/logo.svg" alt="logo">
                 </a>
 
+
+                <!-- barra di ricerca -->
                 <form class="d-flex flex-grow-1 position-relative">
                     <input type="search" placeholder="Prova a cercare: Lezioni di laravel">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </form>
 
+
+                <!-- menu dx header -->
                 <div class="navbar-toggler border-0">
 
                     <div class="dropdown btn-group dropstart">
@@ -47,11 +53,17 @@
                             <i class="fa-solid fa-bell"></i>
                         </button>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Profilo</a></li>
-                          <li><a class="dropdown-item" href="#">Fatturazione</a></li>
-                          <li><a class="dropdown-item" href="#">Logout</a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">Profilo</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Fatturazione</a>  
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Logout</a>
+                            </li>
                         </ul>
-                      </div>
+                    </div>
 
                 </div>
 
@@ -75,104 +87,97 @@
                             </a>
                         </li>
                         <li class="nav-item">
+
                             <div class="dropdown btn-group dropstart">
                                 <button class="btn btn-outline-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     <i class="fa-solid fa-bell"></i>
                                 </button>
                                 <ul class="dropdown-menu">
-                                  <li><a class="dropdown-item" href="#">Profilo</a></li>
-                                  <li><a class="dropdown-item" href="#">Fatturazione</a></li>
-                                  <li><a class="dropdown-item" href="#">Logout</a></li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Profilo</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Fatturazione</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Logout</a>
+                                    </li>
                                 </ul>
-                              </div>
+                            </div>
             
                         </li>
                     </ul>
                 </div>
                 
-            
-
             </div>
+
         </div>    
             
-
-                    
-    
     </header>
 
     <main>
 
-        
         <div class="wrapper d-flex">
 
+            <!-- menu laterale -->
             <div id="side_menu">
             
                 <div class="navbar navbar-expand-lg flex-column">
      
-                 <div class="container">
+                    <div class="container">
      
-                     <ul class="nav flex-column">
+                        <ul class="nav flex-column">
      
-                         <li class="nav-item">
-                            <a class="nav-link d-lg-none" href="#">
-                                <i class="fa-solid fa-house"></i>
-                            </a>
-                            <a class="nav-link d-none d-lg-flex gap-2 align-items-center" href="#">
-                                <i class="fa-solid fa-house"></i>
-                                Home
-                            </a>
-                         </li>
+                            <li class="nav-item">
+                                <a class="nav-link d-lg-none" href="#">
+                                    <i class="fa-solid fa-house"></i>
+                                </a>
+                                <a class="nav-link d-none d-lg-flex gap-2 align-items-center" href="#">
+                                    <i class="fa-solid fa-house"></i>
+                                    Home
+                                </a>
+                            </li>
 
-                         
-
-                             
-                         <li class="nav-item">
-                             <a class="nav-link d-lg-none" href="#">
-                                <i class="fa-solid fa-chart-simple"></i>
-                             </a>
-                             <a class="nav-link d-none d-lg-flex gap-2 align-items-center" href="#">
-                                <i class="fa-solid fa-chart-simple"></i>
-                                Stats
-                            </a>
-
-                         </li>
+                            <li class="nav-item">
+                                <a class="nav-link d-lg-none" href="#">
+                                    <i class="fa-solid fa-chart-simple"></i>
+                                </a>
+                                <a class="nav-link d-none d-lg-flex gap-2 align-items-center" href="#">
+                                    <i class="fa-solid fa-chart-simple"></i>
+                                    Stats
+                                </a>
+                            </li>
      
-                         <li class="nav-item">
-                             <a class="nav-link d-lg-none" href="#">
-                                <i class="fa-solid fa-signal"></i>
-                             </a>
-                             <a class="nav-link d-none d-lg-flex gap-2 align-items-center" href="#">
-                                <i class="fa-solid fa-signal"></i>
-                                Signals
-                            </a>
-
-                         </li>
-                     </ul>
+                            <li class="nav-item">
+                                <a class="nav-link d-lg-none" href="#">
+                                    <i class="fa-solid fa-signal"></i>
+                                 </a>
+                                <a class="nav-link d-none d-lg-flex gap-2 align-items-center" href="#">
+                                    <i class="fa-solid fa-signal"></i>
+                                    Signals
+                                </a>
+                            </li>
+                        </ul>
          
-                     <ul class="nav flex-column position-fixed bottom-0">
-                         <li class="nav-item">
-                             <a class="nav-link d-lg-none" href="#">
-                                 <i class="fa-solid fa-gear"></i>
-                             </a>
-                             <a class="nav-link d-none d-lg-flex gap-2 align-items-center" href="#">
-                                <i class="fa-solid fa-gear"></i>
-                                Admin
-                            </a>
-
-                         </li>
-                     </ul>
+                        <ul class="nav flex-column position-fixed bottom-0">
+                            <li class="nav-item">
+                                <a class="nav-link d-lg-none" href="#">
+                                    <i class="fa-solid fa-gear"></i>
+                                </a>
+                                <a class="nav-link d-none d-lg-flex gap-2 align-items-center" href="#">
+                                    <i class="fa-solid fa-gear"></i>
+                                    Admin
+                                </a>
+                            </li>
+                        </ul>
          
-         
-                 </div>
-     
-                 
-         
+                    </div>
      
                 </div> 
      
-     
-             </div>
-     
+            </div>
+            
+
             <div class="container-fluid gx-0 overflow-scroll">
 
                 <section id="blue_bg">
@@ -181,34 +186,40 @@
 
                         <div class="row justify-content-between">
 
+                            <!-- nuono studente -->
                             <div class="col-12 col-md-4 col-lg-2 order-md-1">
 
-                            
                                 <span>Nuovo Studente</span>
                                 <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
-        
+                                
+                                <!-- nuovo studente -->
                                 <div class="offcanvas offcanvas-end text-bg-light offcanvas-size-lg" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+
                                     <div class="offcanvas-header">
                                         <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci nuovo studente</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                     </div>
+
                                     <div class="offcanvas-body">
                                         
                                         <div class="form">
 
                                             <div class="row justify-content-between gy-3">
+
                                                 <div class="col-6">
 
                                                     <label for="nome" class="form-label">Nome</label>
                                                     <input type="text" class="form-control" id="nome">
 
                                                 </div>
+
                                                 <div class="col-6">
 
                                                     <label for="cognome" class="form-label">Cognome</label>
                                                     <input type="text" class="form-control" id="cognome">
 
                                                 </div>
+
                                                 <div class="col-6">
                                                     
                                                     <label for="e-mail" class="form-label">E-mail</label>
@@ -218,9 +229,10 @@
                                                         <div class="form-floating">
                                                           <input type="email" class="form-control" id="email" placeholder="E-mail">
                                                         </div>
-                                                      </div>
+                                                    </div>
 
                                                 </div>
+
                                                 <div class="col-6">
                                                     <label for="password" class="form-label">Password</label>
                                                     <input type="password" class="form-control" id="password">
@@ -235,22 +247,27 @@
                                                         <div class="form-floating">
                                                           <input type="email" class="form-control" id="email" placeholder="E-mail">
                                                         </div>
-                                                      </div>
+                                                    </div>
 
                                                 </div>
+
                                                 <div class="col-6">
                                                     <label for="password" class="form-label">Password</label>
                                                     <input type="password" class="form-control" id="password">
                                                 </div>
+
                                                 <div class="col-12">
 
                                                     <label for="indirizzo" class="form-label">Indirizzo</label>
                                                     <input type="text" class="form-control" id="indirizzo">
+
                                                 </div>
+
                                                 <div class="col-6">
                                                     <label for="citta" class="form-label">Città</label>
                                                     <input type="text" class="form-control" id="citta">
                                                 </div>
+
                                                 <div class="col-4">
                                                     <label for="stato" class="form-label">Stato</label>
                                                     <select class="form-select" aria-label="Default select example">
@@ -258,45 +275,50 @@
                                                         <option value="1">Italia</option>
                                                         <option value="2">Germania</option>
                                                         <option value="3">Spagna</option>
-                                                      </select>
+                                                    </select>
                                                 </div>
+
                                                 <div class="col-2">
                                                     <label for="cap" class="form-label">CAP</label>
                                                     <input type="text" class="form-control" id="cap">
                                                 </div>
+
                                                 <div class="col-12">
                                                     <label for="formFile" class="form-label">Foto</label>
                                                     <input class="form-control" type="file" id="formFile">
                                                 </div>
+
                                                 <div class="col-4">
+
                                                     <div class="mb-3 form-check">
                                                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                                         <label class="form-check-label" for="exampleCheck1">Seleziona per proseguire</label>
                                                     </div>
+
                                                     <button type="submit" class="btn btn-primary">Salva</button>
                                                     <button type="button" class="btn btn-warning">Svuota</button>
- 
+
                                                 </div>
                                                 
                                             </div>
+
                                         </div>
                                         
                                     </div>
+
                                 </div>
     
-                                
-                                
                             </div>
                         
-        
+                            <!-- Boolean -->
                             <div class="col-12 col-md-4 col-lg-5">
 
                                 <div class="d-flex align-items-center">
                                     <h1>Boolean</h1>
                                     <span class="badge rounded-pill text-bg-dark" style="--bs-bg-opacity: .3;">Piano blaze</span>
-                               </div>
+                                </div>
 
-                               <nav style="--bs-breadcrumb-divider: '»'; --bs-breadcrumb-divider-color: #ffffff;" aria-label="breadcrumb">
+                                <nav style="--bs-breadcrumb-divider: '»'; --bs-breadcrumb-divider-color: #ffffff;" aria-label="breadcrumb">
                                     <ul class="breadcrumb">
                                         <li class="breadcrumb-item">
                                             <a class="text-decoration-none" href="#">
@@ -315,10 +337,11 @@
                                             </a>
                                         </li>
                                     </ul>
-                              </nav>
+                                </nav>
 
                             </div>
 
+                            <!-- studenti attivi -->
                             <div class="col-12 col-md-4 col-lg-5">
                                 <span>Studenti online negli ultimi 30 minuti</span>
                                 <h2>125</h2>
@@ -328,14 +351,18 @@
     
                     </div>
     
-    
                 </section>
 
+                <!-- contenuto principale -->
                 <section>
+
                     <div class="container-fluid">
+
                         <div class="row">
+
                             <div class="col-12 col-lg-8">
 
+                                <!-- prossime classi -->
                                 <div class="card my-3">
                                     <h3 class="card-header">
                                       Prossime Classi
@@ -511,72 +538,83 @@
                                     </div>
                                 </div>
 
+                                <!-- F.A.Q. -->
                                 <div class="card my-3">
                                     <h3 class="card-header">
                                       F.A.Q.
                                     </h3>
                                     <div class="card-body">
                                         <div class="accordion" id="accordionExample">
+
                                             <div class="accordion-item">
-                                              <h2 class="accordion-header" id="headingOne">
-                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                  Come aggiungere un nuovo studente?
-                                                </button>
-                                              </h2>
-                                              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                                <div class="accordion-body">
-                                                    Clicca sul + in alto nella sezione blu
+                                                <h2 class="accordion-header" id="headingOne">
+                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                    Come aggiungere un nuovo studente?
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+                                                        Clicca sul + in alto nella sezione blu
+                                                    </div>
                                                 </div>
-                                              </div>
                                             </div>
+
                                             <div class="accordion-item">
-                                              <h2 class="accordion-header" id="headingTwo">
-                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                    Come posso accedere alle informazioni del mio account?
-                                                </button>
-                                              </h2>
-                                              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                                <div class="accordion-body">
-                                                    Clicca sull'icona della campanella
+                                                <h2 class="accordion-header" id="headingTwo">
+                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                        Come posso accedere alle informazioni del mio account?
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+                                                        Clicca sull'icona della campanella
+                                                    </div>
                                                 </div>
-                                              </div>
                                             </div>
+
                                             <div class="accordion-item">
-                                              <h2 class="accordion-header" id="headingThree">
-                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                    Posso usare questa dashboard da mobile?
-                                                </button>
-                                              </h2>
-                                              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                                <div class="accordion-body">
-                                                    No
+                                                <h2 class="accordion-header" id="headingThree">
+                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                        Posso usare questa dashboard da mobile?
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+                                                        No
+                                                    </div>
                                                 </div>
-                                              </div>
                                             </div>
+
                                         </div>
                                     </div>
                                 </div>
 
                             </div>
+
                             <div class="col-12 col-lg-4">
 
+                                <!-- Todo -->
                                 <div class="card my-3">
+
                                     <h3 class="card-header">
                                         Todo
                                     </h3>
+
                                     <div class="card-body">
 
                                         <ul class="list-group list-group-flush border border-secondary rounded" style="--bs-border-opacity: .3;">
+
                                             <li class="list-group-item">
 
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                                                     <label class="form-check-label" for="flexCheckDefault">
-                                                      Kickoff nuove classi
+                                                        Kickoff nuove classi
                                                     </label>
                                                 </div>
                                                   
                                             </li>
+
                                             <li class="list-group-item">
                                                 
                                                 <div class="form-check">
@@ -587,6 +625,7 @@
                                                 </div>
 
                                             </li>
+
                                             <li class="list-group-item">
                                                 
                                                 <div class="form-check">
@@ -596,45 +635,54 @@
                                                     </label>
                                                 </div>
 
-
                                             </li>
+
                                         </ul>
                                         
                                     </div>
+
                                 </div>
                                 
+                                <!-- Utenti -->
                                 <div id="utenti" class="card my-3">
+
                                     <img src="img/stats.jpeg" class="card-img-top" alt="stats">
+
                                     <div class="card-body">
-                                      <h5 class="card-title">Utenti Attivi</h5>
-                                      <span>Lista degli utenti attivi in piattaforma nell'ultimo mese</span>
-                                      <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">
-                                            Gennaio: 1200
-                                        </li>
-                                        <li class="list-group-item">
-                                            Febbraio: 800
-                                        </li>
-                                        <li class="list-group-item">
-                                            Marzo: 1500
-                                        </li>
-                                        <li class="list-group-item">
-                                            <a href="#">
-                                                Visualizza report approfondito
-                                            </a>
-                                        </li>
-                                    </ul>
+
+                                        <h5 class="card-title">Utenti Attivi</h5>
+                                        <span>Lista degli utenti attivi in piattaforma nell'ultimo mese</span>
+
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">
+                                                Gennaio: 1200
+                                            </li>
+                                            <li class="list-group-item">
+                                                Febbraio: 800
+                                            </li>
+                                            <li class="list-group-item">
+                                                Marzo: 1500
+                                            </li>
+                                            <li class="list-group-item">
+                                                <a href="#">
+                                                    Visualizza report approfondito
+                                                </a>
+                                            </li>
+                                        </ul>
 
                                     </div>
-                                  </div>
+                                </div>
 
                             </div>
+
                         </div>
+
                     </div>
+
                 </section>
+
             </div>
      
-
         </div>
 
         
