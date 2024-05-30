@@ -1,4 +1,4 @@
-/* regole genrali */
+/* regole generali */
 
 * {
     margin: 0;
@@ -70,6 +70,10 @@ section {
     }
 }
 
+#side_menu li:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
 #side_menu .nav-link {
     color: #ffffff;
     font-size: smaller;
@@ -91,4 +95,8 @@ section {
 
 .offcanvas.offcanvas-end {
     width: 800px;
+}
+
+.smaller_txt {
+    font-size: smaller;
 }
