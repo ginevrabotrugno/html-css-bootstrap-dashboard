@@ -187,7 +187,7 @@
                                 <span>Nuovo Studente</span>
                                 <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
         
-                                <div class="offcanvas offcanvas-end text-bg-light" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas offcanvas-end text-bg-light offcanvas-size-lg" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                                     <div class="offcanvas-header">
                                         <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci nuovo studente</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -196,7 +196,7 @@
                                         
                                         <div class="form">
 
-                                            <div class="row g-3">
+                                            <div class="row justify-content-between gy-3">
                                                 <div class="col-6">
 
                                                     <label for="nome" class="form-label">Nome</label>
@@ -248,14 +248,36 @@
                                                     <input type="text" class="form-control" id="indirizzo">
                                                 </div>
                                                 <div class="col-6">
-                                                    <div class="box"></div>
+                                                    <label for="citta" class="form-label">Città</label>
+                                                    <input type="text" class="form-control" id="citta">
                                                 </div>
-                                                <div class="col-3">
-                                                    <div class="box"></div>
+                                                <div class="col-4">
+                                                    <label for="stato" class="form-label">Stato</label>
+                                                    <select class="form-select" aria-label="Default select example">
+                                                        <option selected>Scegli...</option>
+                                                        <option value="1">Italia</option>
+                                                        <option value="2">Germania</option>
+                                                        <option value="3">Spagna</option>
+                                                      </select>
                                                 </div>
                                                 <div class="col-2">
-                                                    <div class="box"></div>
+                                                    <label for="cap" class="form-label">CAP</label>
+                                                    <input type="text" class="form-control" id="cap">
                                                 </div>
+                                                <div class="col-12">
+                                                    <label for="formFile" class="form-label">Foto</label>
+                                                    <input class="form-control" type="file" id="formFile">
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="mb-3 form-check">
+                                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                        <label class="form-check-label" for="exampleCheck1">Seleziona per proseguire</label>
+                                                    </div>
+                                                    <button type="submit" class="btn btn-primary">Salva</button>
+                                                    <button type="button" class="btn btn-warning">Svuota</button>
+ 
+                                                </div>
+                                                
                                             </div>
                                         </div>
                                         

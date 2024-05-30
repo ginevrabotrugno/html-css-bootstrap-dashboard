@@ -93,3 +93,8 @@ section {
     line-height: 100%;
     vertical-align: middle;
 }
+
+
+.offcanvas.offcanvas-end {
+    width: 800px;
+}
